@@ -2527,6 +2527,13 @@ img {
     flex: 1;
 }
 
+.sdg-badge-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-self: flex-start;
+}
+
 .sdg-badge {
     display: inline-block;
     padding: 4px 12px;

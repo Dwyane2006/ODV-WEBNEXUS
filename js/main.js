@@ -778,74 +778,74 @@ if (document.getElementById('membersTrack')) {
     // -------------------------------------------------------
     const sdgProjects = [
         {
-            sdg: "SDG 4",
-            title: "Quality Education Camp",
-            description: "An intensive learning camp delivering quality education workshops, literacy drives, and skills training aligned with UN SDG 4 — Quality Education.",
+            sdg: ["SDG 3", "SDG 6", "SDG 17"],
+            title: "Banyo Bayanihan",
+            description: "A community initiative that improves sanitation facilities and promotes proper hygiene practices to support public health and clean living environments.",
             image: "SDG/48.jpg"
         },
         {
-            sdg: "SDG 16",
-            title: "Peace and Justice Summit",
-            description: "A community forum promoting peace, justice, and strong institutions through dialogue, human rights awareness, and conflict resolution sessions.",
+            sdg: ["SDG 11", "SDG 12", "SDG 13", "SDG 15"],
+            title: "Lunhaw Kong Kinaiyahan",
+            description: "An environmental conservation project focused on tree planting, waste reduction, and raising awareness about protecting natural resources.",
             image: "SDG/49.jpg"
         },
         {
-            sdg: "SDG 3",
-            title: "Health and Well-Being Initiative",
-            description: "First Aid & Basic Life Support training combined with health awareness campaigns, promoting good health and well-being for all community members.",
+            sdg: ["SDG 9", "SDG 17"],
+            title: "Limpyo sa Kaugmaon",
+            description: "A clean-up and waste management campaign that encourages community participation in maintaining a cleaner and more sustainable environment.",
             image: "SDG/50.jpg"
         },
         {
-            sdg: "SDG 10",
-            title: "Reduced Inequalities Forum",
-            description: "An inclusive dialogue event addressing social and economic inequalities, empowering marginalized communities through education and advocacy.",
+            sdg: ["SDG 3", "SDG 6"],
+            title: "Iwas Sakit, Presyong Sulit",
+            description: "A health-awareness project that provides information on disease prevention, proper hygiene, and affordable health practices for the community.",
             image: "SDG/51.jpg"
         },
         {
-            sdg: "SDG 5",
-            title: "Gender Equality Workshop",
-            description: "A workshop empowering women and youth through leadership development, gender sensitivity training, and equal opportunity advocacy sessions.",
+            sdg: ["SDG 2", "SDG 17"],
+            title: "Senior Powers: Abtik nga Serbisyu para sa mga Katigulangan Project",
+            description: "A community outreach program dedicated to supporting senior citizens through accessible services, health assistance, social engagement activities, and programs that promote their well-being and quality of life.",
             image: "SDG/52.jpg"
         },
         {
-            sdg: "SDG 17",
-            title: "Partnership for the Goals",
-            description: "Collaborative multi-stakeholder event strengthening partnerships among youth organizations, government, and civil society toward shared SDG goals.",
+            sdg: ["SDG 2", "SDG 3", "SDG 4"],
+            title: "Batang Da Vinci: Nourishing Young Minds with Food, Knowledge, and Wellness",
+            description: "A child-centered outreach program that promotes proper nutrition, quality education, and healthy lifestyles by providing food assistance, learning opportunities, and wellness activities for young learners.",
             image: "SDG/53.jpg"
         },
         {
-            sdg: "SDG 4",
-            title: "Youth Leadership Academy",
-            description: "A structured training program building leadership competencies in young people, supporting lifelong learning and educational empowerment.",
+            sdg: ["SDG 3", "SDG 13"],
+            title: "Silid Luntian: Integrating Air-Purifying Plants for a Healthier Learning Environment",
+            description: "A sustainability project that incorporates air-purifying plants into learning spaces to improve indoor air quality, promote student well-being, and encourage environmental awareness.",
             image: "SDG/54.jpg"
         },
         {
-            sdg: "SDG 16",
-            title: "Human Rights Confab",
-            description: "Regional conference on human rights awareness recognized with a Top 5 Finalist placement at the CHR Confab on Human Rights Year 3.",
+            sdg: ["SDG 8", "SDG 17"],
+            title: "Alay Kay Manong",
+            description: "A community outreach project that honors and supports drivers by providing assistance, appreciation activities, and programs that promote their welfare, safety, and well-being.",
             image: "SDG/55.jpg"
         },
         {
-            sdg: "SDG 3",
-            title: "Community Health Drive",
-            description: "Free medical consultations, health screenings, and wellness programs bringing essential health services directly to underserved communities.",
+            sdg: ["SDG 3", "SDG 4", "SDG 11", "SDG 17"],
+            title: "ODV in Action: A Symposium on Basic Life Support and Basic First Aid",
+            description: "A community education program that equips participants with essential knowledge and practical skills in basic life support and first aid, promoting emergency preparedness and community safety.",
             image: "SDG/56.jpg"
         },
         {
-            sdg: "SDG 8",
-            title: "Decent Work and Livelihood",
-            description: "Skills-building sessions on livelihood development, entrepreneurship, and employment readiness to promote decent work opportunities.",
+            sdg: ["SDG 4", "SDG 10", "SDG 16"],
+            title: "Voices of Allies",
+            description: "A campaign that promotes inclusivity, equality, and respect for diversity by empowering individuals to become advocates for social change.",
             image: "SDG/57.jpg"
         },
         {
-            sdg: "SDG 11",
-            title: "Sustainable Communities Project",
-            description: "Community engagement project focused on sustainable urban planning awareness, disaster resilience, and inclusive local development.",
+            sdg: ["SDG 3", "SDG 11"],
+            title: "ODV Basketball Summer League",
+            description: "A sports development program that promotes physical fitness, teamwork, discipline, and community engagement through organized basketball activities during the summer season.",
             image: "SDG/58.jpg"
         },
         {
-            sdg: "SDG 4",
-            title: "Peacebuilding & Education Camp",
+            sdg: ["SDG 2", "SDG 3", "SDG 16"],
+            title: "Project Bowlful of Care",
             description: "An integrative camp merging peacebuilding frameworks with quality education, producing youth champions for community development.",
             image: "SDG/59.jpg"
         }
@@ -864,7 +864,7 @@ if (document.getElementById('membersTrack')) {
 
         const filtered = filter === 'all'
             ? sdgProjects
-            : sdgProjects.filter(p => p.sdg === filter);
+            : sdgProjects.filter(p => p.sdg.includes(filter));
 
         if (filtered.length === 0) {
             noResults.style.display = 'block';
@@ -875,7 +875,9 @@ if (document.getElementById('membersTrack')) {
         filtered.forEach((project, idx) => {
             const card = document.createElement('div');
             card.className = 'sdg-card';
-            card.dataset.sdg = project.sdg;
+            card.dataset.sdg = project.sdg.join(',');
+
+            const badgesHtml = project.sdg.map(s => `<span class="sdg-badge">${s}</span>`).join('');
 
             card.innerHTML = `
                 <div class="sdg-card-image" data-img="${project.image}" data-title="${project.title}" tabindex="0" role="button" aria-label="View full image of ${project.title}">
@@ -885,7 +887,7 @@ if (document.getElementById('membersTrack')) {
                     </div>
                 </div>
                 <div class="sdg-card-body">
-                    <span class="sdg-badge">${project.sdg}</span>
+                    <div class="sdg-badge-group">${badgesHtml}</div>
                     <h3 class="sdg-card-title">${project.title}</h3>
                     <p class="sdg-card-desc">${project.description}</p>
                 </div>

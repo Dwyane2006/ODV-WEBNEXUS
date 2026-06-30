@@ -1,0 +1,265 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Order of Da Vinci - Leadership, Honor, Valor, Service. Inspired by Leonardo da Vinci.">
+    <meta name="keywords" content="da vinci, leadership, honor, service, organization">
+    <meta name="author" content="Order of Da Vinci">
+    <title>Order of Da Vinci</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧭</text></svg>">
+    <meta name="theme-color" content="#d4af37">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+      if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('sw.js').catch(err => {
+            console.warn('Service worker registration skipped:', err);
+          });
+        });
+      }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"><img src="img/odv-logo.jpg" alt="Order of Da Vinci Logo"></span>
+                <span class="logo-text">Order of Da Vinci</span>
+            </a>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="trainings.html">Trainings</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="sdg.html">SDG</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">Order of Da Vinci</h1>
+                <p class="hero-subtitle">Leadership • Honor • Valor • Service</p>
+                <p class="hero-description">Inspired by the legacy of Leonardo da Vinci, we foster a community of visionary thinkers dedicated to shaping a better future through creativity, knowledge, and service.</p>
+                <div class="hero-buttons">
+                    <a href="members.html" class="btn btn-primary">Join Us</a>
+                    <a href="about.html" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="mission-vision section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Purpose</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="cards-grid">
+                <div class="card card-mission">
+                    <div class="card-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Mission</h3>
+                    <p>To cultivate a global community of innovative leaders who apply interdisciplinary knowledge, creative thinking, and compassionate service to address humanity's greatest challenges.</p>
+                </div>
+                <div class="card card-vision">
+                    <div class="card-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Vision</h3>
+                    <p>To be the world's premier fellowship of visionary minds, creating lasting positive impact through the fusion of art, science, technology, and humanistic values.</p>
+                </div>
+                <div class="card card-values">
+                    <div class="card-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Core Values</h3>
+                    <p>Excellence, Curiosity, Integrity, Collaboration, and Service guide every endeavor we undertake as we follow in the footsteps of the Renaissance master.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Achievements Section -->
+    <section class="featured-achievements section-padding bg-dark">
+        <div class="container">
+            <div class="section-header light">
+                <h2>Notable Achievements</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Milestones that define our journey of excellence</p>
+            </div>
+
+            <div class="achievements-list">
+                <div class="achievement-card">
+                    <img src="Photos/achievements/odv-milestones.jpg" alt="ODV Milestones" class="card-img">
+                    <div class="card-body">
+                        <div class="card-date">2025</div>
+                        <h3>Top 20 Finalist — Outstanding Org. for the People Award</h3>
+                        <p>Named Top 20 Finalist for the Ten Outstanding UN SDG Awards by SDSN Youth, plus a Top 5 Finalist placement in the CHR Confab on Human Rights Year 3.</p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <img src="Photos/achievements/nyc-yorp-registration.jpg" alt="National Youth Commission Registration" class="card-img">
+                    <div class="card-body">
+                        <div class="card-date">2025</div>
+                        <h3>National Youth Commission Registration</h3>
+                        <p>Officially approved by the National Youth Commission for YORP registration, recognizing ODV as a registered youth-serving organization.</p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <img src="Photos/achievements/radiance-vol1.jpg" alt="The Radiance Publication" class="card-img">
+                    <div class="card-body">
+                        <div class="card-date">2025</div>
+                        <h3>Launch of The Radiance Publication</h3>
+                        <p>Released the inaugural volume of our official publication, documenting ODV's founding, milestones, and the Da Vincian way of life.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="achievements.html" class="btn btn-outline-light">View All Achievements</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Members Section -->
+    <section class="featured-members section-padding">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Featured Members</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Meet the distinguished members of the Order of Da Vinci</p>
+            </div>
+            <div class="sliding-members-container auto-slide-only">
+                <div class="sliding-members-track" id="membersTrack">
+                    <!-- Members will be populated by JS -->
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="members.html" class="btn btn-primary">View All Members</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Services Preview Section -->
+    <section class="services-preview section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Core training programs that shape every ODV member</p>
+            </div>
+            <div class="services-feature-grid">
+                <div class="services-feature-image">
+                    <img src="img/services-hero.jpg" alt="ODV members leading a public speaking session" loading="lazy">
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Leadership Training</h4>
+                        <p>Structured sessions that build self-awareness, decision-making, and organizational growth, forming the backbone of every member's journey through the Order.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-kit-medical"></i>
+                        </div>
+                        <h4>First Aid Training</h4>
+                        <p>Hands-on Basic Life Support and First Aid instruction that prepares members for emergency response and everyday safety preparedness.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <h4>Public Speaking</h4>
+                        <p>"The Art of Voice" trains members to speak with purpose and power, building the confidence and clarity needed for leadership communication.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="services.html" class="btn btn-primary">Explore Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <img src="img/odv-logo.jpg" alt="Order of Da Vinci Logo" class="footer-logo-icon">
+                        <span>Order of Da Vinci</span>
+                    </a>
+                    <p>Inspiring innovation and leadership for a better tomorrow.</p>
+                    <div class="social-links">
+<a href="https://www.facebook.com/OrderofDaVinci" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@OrderofDaVinci" aria-label="YouTube" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="achievements.html">Achievements</a></li>
+                        <li><a href="members.html">Members</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="trainings.html">Trainings</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> orderofdavinci@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +63 9094355956</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Bunawan, Agusan Del Sur</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Order of Da Vinci. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+

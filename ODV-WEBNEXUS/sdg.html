@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Order of Da Vinci - SDG Projects. Our contributions to the United Nations Sustainable Development Goals.">
+    <title>SDG Projects | Order of Da Vinci</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#d4af37">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"><img src="img/odv-logo.jpg" alt="Order of Da Vinci Logo"></span>
+                <span class="logo-text">Order of Da Vinci</span>
+            </a>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="trainings.html">Trainings</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="sdg.html" class="active">SDG</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" style="height: 50vh; min-height: 400px;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">SDG Projects</h1>
+                <p class="hero-description">Our contributions to the United Nations Sustainable Development Goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SDG Projects Section -->
+    <section class="sdg-section" id="sdg-projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>SDG Projects Implemented</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Our contributions to the United Nations Sustainable Development Goals</p>
+            </div>
+
+            <!-- SDG Filter Tabs -->
+            <div class="sdg-filters" id="sdgFilters">
+                <button class="sdg-filter-btn active" data-filter="all">All Projects</button>
+                <button class="sdg-filter-btn" data-filter="SDG 1">SDG 1</button>
+                <button class="sdg-filter-btn" data-filter="SDG 2">SDG 2</button>
+                <button class="sdg-filter-btn" data-filter="SDG 3">SDG 3</button>
+                <button class="sdg-filter-btn" data-filter="SDG 4">SDG 4</button>
+                <button class="sdg-filter-btn" data-filter="SDG 5">SDG 5</button>
+                <button class="sdg-filter-btn" data-filter="SDG 6">SDG 6</button>
+                <button class="sdg-filter-btn" data-filter="SDG 7">SDG 7</button>
+                <button class="sdg-filter-btn" data-filter="SDG 8">SDG 8</button>
+                <button class="sdg-filter-btn" data-filter="SDG 9">SDG 9</button>
+                <button class="sdg-filter-btn" data-filter="SDG 10">SDG 10</button>
+                <button class="sdg-filter-btn" data-filter="SDG 11">SDG 11</button>
+                <button class="sdg-filter-btn" data-filter="SDG 12">SDG 12</button>
+                <button class="sdg-filter-btn" data-filter="SDG 13">SDG 13</button>
+                <button class="sdg-filter-btn" data-filter="SDG 14">SDG 14</button>
+                <button class="sdg-filter-btn" data-filter="SDG 15">SDG 15</button>
+                <button class="sdg-filter-btn" data-filter="SDG 16">SDG 16</button>
+                <button class="sdg-filter-btn" data-filter="SDG 17">SDG 17</button>
+            </div>
+
+            <!-- Prev / Next category stepper -->
+            <div class="sdg-category-nav" id="sdgCategoryNav">
+                <button class="sdg-cat-btn" id="sdgCatPrev" aria-label="Previous SDG category">
+                    <i class="fas fa-chevron-left"></i> Previous
+                </button>
+                <span class="sdg-cat-current" id="sdgCatCurrent">All Projects</span>
+                <button class="sdg-cat-btn" id="sdgCatNext" aria-label="Next SDG category">
+                    Next <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <!-- SDG Project Grid (rendered by JS) -->
+            <div class="sdg-grid" id="sdgGrid">
+                <p class="sdg-no-results" id="sdgNoResults">No projects found for this SDG category.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SDG Lightbox Modal -->
+    <div class="sdg-lightbox ev-lightbox" id="sdgLightbox" role="dialog" aria-modal="true" aria-label="Project image viewer">
+        <button class="ev-lightbox-close" id="sdgLightboxClose" aria-label="Close image">
+            <i class="fas fa-times"></i>
+        </button>
+        <button class="ev-lightbox-btn ev-lb-prev" id="sdgLbPrev" aria-label="Previous image">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <img class="ev-lightbox-img" id="sdgLightboxImg" src="" alt="">
+        <button class="ev-lightbox-btn ev-lb-next" id="sdgLbNext" aria-label="Next image">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="ev-lightbox-caption">
+            <div class="sdg-lb-title" id="sdgLightboxTitle"></div>
+            <div class="sdg-lb-counter" id="sdgLightboxCounter"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <img src="img/odv-logo.jpg" alt="Order of Da Vinci Logo" class="footer-logo-icon">
+                        <span>Order of Da Vinci</span>
+                    </a>
+                    <p>Inspiring innovation and leadership for a better tomorrow.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/OrderofDaVinci" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@OrderofDaVinci" aria-label="YouTube" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="achievements.html">Achievements</a></li>
+                        <li><a href="members.html">Members</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="trainings.html">Trainings</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> orderofdavinci@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +63 9094355956</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Bunawan, Agusan Del Sur</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Order of Da Vinci. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

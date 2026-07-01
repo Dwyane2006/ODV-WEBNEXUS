@@ -344,19 +344,45 @@ document.addEventListener('DOMContentLoaded', function() {
             members: [
                 { name: "Christian Jay B. Gumapac", image: "Photos/Christian%20Jay%20B.%20Gumapac,%20Founding%20Grand%20Master.jpg", bio: "Guiding the order with dedication and a passion for interdisciplinary excellence.", fullBio: "Mr. Christian Jay B. Gumapac, Currently Taking up Bachelor of Science in Agricultural and Biosystems Engineering  at Agusan del Sur State College of Agriculture and Technology, Bunawan, Agusan del Sur. He is an Active Youth Leader of Barangay Hawilian, Esperanza, Agusan del Sur as Sanguniang Kabataan Chairman. He is also the Former President of Kab-ot Youth Organization and Former Vice President of ASSCAT Supreme Student Government Main Campus. Lastly He is a champion of Student Leadership, Accountability, Transparency and Volunteerism." },
                 { name: "Ian Albert S. Dela Pena", image: "Photos/Ian%20Albert%20S.%20Dela%20Pena,%20Founding%20Grand%20Master.jpg", bio: "Committed to fostering innovation and service within the Da Vinci community.", fullBio: "Mr. Ian Albert S. Dela Peña, Graduated Bachelor of Science in Civil Engineering at ASSCAT. He is a Former ASSCAT Supreme Student Government President 2021-2022, Former Caraga Federation of Tertiary Student Leaders Vice President, Delegate of Ayala Young Leaders Congress 2022, Delegate of MasterPEACE V, Delegate of the National Sectoral Council of the National Anti-Poverty Commission Youth and Student Sector and Delegate of National Youth Parliament for Region 10 and Caraga. One of the Bagani Outstanding Agsurnon Youth Awardee 2022 and One of the Top 25 of Outstanding Student Leaders of the Philippines 2024." },
-                { name: "Z-rabih M. Maturan", image: "Photos/9d954659-7186-4875-a880-3da9565ab429.jpg", bio: "Dedicated to upholding the values and mission of the order through exemplary leadership.", fullBio: "Z-Rabih M. Maturan, a 26-year-old resident of Purok 13, Sitio Tagbayog, Awao, Santa Josefa, Agusan del Sur, was born on October 15, 1999. He earned a Bachelor of Science in Psychology from Caraga State University, where he developed a strong understanding of human behavior, communication, and interpersonal relationships. His academic background has shaped his ability to interact effectively with others and adapt to different situations. He practices a situational leadership style, emphasizing flexibility and responsiveness to challenges. Z-Rabih possesses key skills in leadership, public speaking, communication, project management, and teamwork, enabling him to contribute positively in group settings. Although his community involvement is limited, he recognizes its importance and is willing to participate in future initiatives. Aspiring to become a Grand Master of the Order of Da Vinci, he aims to promote unity, inclusivity, and excellence while contributing to the growth and development of the organization and its members." }
+                { name: "Z-rabih M. Maturan", image: "Photos/9d954659-7186-4875-a880-3da9565ab429.jpg", bio: "Dedicated to upholding the values and mission of the order through exemplary leadership.", fullBio: "Z-Rabih M. Maturan, a 26-year-old resident of Purok 13, Sitio Tagbayog, Awao, Santa Josefa, Agusan del Sur, was born on October 15, 1999. He earned a Bachelor of Science in Psychology from Caraga State University, where he developed a strong understanding of human behavior, communication, and interpersonal relationships. His academic background has shaped his ability to interact effectively with others and adapt to different situations. He practices a situational leadership style, emphasizing flexibility and responsiveness to challenges. Z-Rabih possesses key skills in leadership, public speaking, communication, project management, and teamwork, enabling him to contribute positively in group settings. Although his community involvement is limited, he recognizes its importance and is willing to participate in future initiatives. Aspiring to become a Grand Master of the Order of Da Vinci, he aims to promote unity, inclusivity, and excellence while contributing to the growth and development of the organization and its members." },
+                { name: "Emmanuel tambong Monte Jr.", image: "Photos/900db16f-ab04-4dd1-ae4a-9f956ef44679.jpg", bio: "Active member contributing to the order's vision and goals.", fullBio: "Emanuel Tambong Monte Jr. was born on May 18, 2001, in P-5 Magsaysay, Prosperidad, Agusan del Sur, where he also currently resides. He is a fourth-year student of Bachelor of Science in Agriculture major in Animal Science." }
             ]
         },
         {
-            position: "Officers",
+            position: "President",
             category: "officer",
             members: [
                 { name: "Julianne Tristan Dequiña", image: "Photos/Julianne%20Tristan%20Dequiña,%20President.jpg", bio: "Leading the Order with vision, dedication, and a commitment to excellence.", fullBio: "Julianne Tristan Encarnacion Dequiña was born on July 13, 2006, in Veruela, Agusan del Sur. He is currently pursuing a Bachelor of Science in Information Technology (BSIT), aiming to build a career in the ever-evolving world of digital technology and innovation. A proud graduate of Veruela National High School, Julianne completed the Humanities and Social Sciences (HUMSS) strand With Honors, showcasing his academic diligence and well-rounded capabilities. He also received the Leonardo Da Vinci Excellence Award through his Outstanding performance in the Order of Da Vinci. In his free time, he enjoys jogging, walking, and hiking, activities that reflect his active lifestyle and appreciation for the outdoors." },
-                { name: "Regie N. Tandoc", image: "Photos/Regie%20N.%20Tandoc,%20Vice%20President.jpg", bio: "Overseeing strategic initiatives and supporting the order's mission worldwide.", fullBio: "Regie Nudque Tandoc was born on December 8, 2005, in Governor Generoso, Davao Oriental, and currently resides in P-1 Poblacion, Rosario, Agusan del Sur. He is taking up a Bachelor of Science in Civil Engineering, driven by a passion for design, structure, and leadership.Regie has consistently demonstrated excellence both in academics and extracurricular activities. He is a recipient of multiple awards including Student Leader of the Year, With High Honors, Leadership Awardee, Arts Awardee, and Service Awardee in His previous Senior High School which is the Datu Lipus Makapandong National High School. He also received the Leonardo Da Vinci Excellence Award through his Outstanding performance in the Order of Da Vinci. In his spare time, he enjoys playing guitar, basketball, and honing his communication and active listening skills, which further enhance his leadership and collaborative strengths." },
-                { name: "Jhon Dave Cadiog", image: "Photos/Jhon%20Dave%20Cadiog,%20Secretary%20.jpg", bio: "Coordinating communications and maintaining organizational records.", fullBio: "Mr. John Dave Cordova Cadiog was born on November 28, 2005, at Southern Philippines Medical Center in Davao City. He currently resides in P-7 Cabantao, Rosario, Agusan del Sur, and is pursuing a Bachelor of Science in Agriculture major in Horticulture (BSA-Horticulture)—a field aligned with his passion for plants and nature. He graduated With High Honors from Datu Lipus Makapandong National High School, under the General Academic Strand (GAS), reflecting his strong academic foundation and commitment to excellence. John Dave enjoys photography and planting, hobbies that blend creativity and environmental appreciation—perfectly complementing his chosen field of study." },
-                { name: "John Mark P. Segovia", image: "Photos/John%20Mark%20P.%20Segovia,%20Treasurer.jpg", bio: "Managing organizational finances with integrity and transparency.", fullBio: "Jhon Mark Segovia Pacional was born on May 27, 2006, and resides in P-9 Del Monte, Talacogon, Agusan del Sur. He is currently pursuing a Bachelor of Science in Civil Engineering, driven by a keen interest in infrastructure and innovation. A proud graduate of Del Monte National High School, Jhon Mark completed his senior high school With Honors and received several prestigious recognitions in his College Journey including the Civic Engagement Award, Academic Excellence Award, Exemplary Performance Award, Leadership Award, and Outstanding Volunteer Award. These reflect his dedication to both academic achievement and community service. Outside the classroom, he is passionate about basketball and chess, showcasing a balance between physical activity and strategic thinking." },
-                { name: "Christian Jay P. Eupena", image: "Photos/Christian%20Jay%20P.%20Eupena,%20Auditor.jpg", bio: "Ensuring accountability and compliance across all operations.", fullBio: "Christian Jay Pitos Eupeña was born on December 12, 2005, in P-7 Poblacion, Sibagat, Agusan del Sur. He is currently residing at P-1A Banahaw Bayugan 3, Rosario, Agusan del Sur. He is currently pursuing a degree in Bachelor of Science in Agriculture major in Animal Science (BSA-AnSci). A proud graduate of Philsaga High School Foundation Incorporated (PHSFI), he completed his senior high school under the General Academic Strand and graduated With Honors.Christian is passionate about sports and entertainment, often spending his free time playing basketball and watching movies. His dedication to both academics and personal interests reflects his well-rounded character and commitment to growth." },
-                { name: "Jay-ar Torralba", image: "Photos/Jay-ar%20Torralba,%20Business%20Manager.jpg", bio: "Driving partnerships and sustainable growth for the order.", fullBio: "Jay-ar Bactalan Torralba was born on August 5, 2004, at Northern Mindanao Hospital and is currently residing in Purok-8 Simulao, Bunawan Brook, Bunawan, Agusan del Sur. He is taking up a Bachelor of Science in Civil Engineering, driven by a strong interest in structural design and construction. A graduate of Asian Skills Academy Foundation Inc., Jay-ar completed his senior high school education With Honors, and was also recognized for his talent in the arts with an Outstanding Performance in Musical Arts Award. In addition to his academic accomplishments, Jay-ar is passionate about music and sports. He enjoys playing the guitar, as well as engaging in basketball and billiards, showing a well-rounded personality and creative spirit." }
+            ]
+        },
+
+        {
+            position: "Vice President",
+            category: "officer",
+            members: [
+                { name: "Regie N. Tandoc", image: "Photos/Regie%20N.%20Tandoc,%20Vice%20President.jpg", bio: "Supporting the President in strategic planning and organizational growth.", fullBio: "Regie N. Tandoc was born on March 15, 2006, in San Francisco, Agusan del Sur, where he currently resides in Purok 2, Bayugan 2. He is pursuing a Bachelor of Science in Civil Engineering (BSCE), reflecting his interest in design, construction, and infrastructure development. A graduate of Agusan del Sur National High School, Regie completed the General Academic Strand (GAS) and was recognized With Honors for his academic performance. In addition to his studies, he enjoys playing basketball and reading books, hobbies that balance both physical activity and intellectual growth." }
+            ]
+        },
+
+        {
+            position: "Secretary",
+            category: "officer",
+            members: [
+                { name: "Jhon Dave Cadiog,", image: "Photos/Jhon%20Dave%20Cadiog,%20Secretary%20.jpg", bio: "Managing communications and maintaining organizational records.", fullBio: "Jhon Dave Cadiog was born on March 15, 2006, in San Francisco, Agusan del Sur. He currently resides in Purok 2, Bayugan 2, and is pursuing a Bachelor of Science in Civil Engineering (BSCE). Jhon Dave is a proud graduate of Agusan del Sur National High School, where he completed the General Academic Strand (GAS) and was recognized With Honors for his academic performance. In his free time, he enjoys playing basketball and reading books, hobbies that balance both physical activity and intellectual growth." }
+            ]
+        },
+        {
+            position: "Treasurer",
+            category: "officer",
+            members: [
+                { name: "Christian Jay P. Eupena", image: "Photos/Christian%20Jay%20P.%20Eupena,%20Treasurer.jpg", bio: "Managing financial records and ensuring fiscal responsibility.", fullBio: "Christian Jay P. Eupeña was born on November 15, 2006, in San Francisco, Agusan del Sur. He currently resides in Purok 2, Bayugan 2, and is pursuing a Bachelor of Science in Civil Engineering (BSCE). Christian is a proud graduate of Agusan del Sur National High School, where he completed the General Academic Strand (GAS) and was recognized With Honors for his academic performance. In his free time, he enjoys playing basketball and reading books, hobbies that balance both physical activity and intellectual growth." }
+            ]
+        },
+        {
+            position: "Auditor",
+            category: "officer",
+            members: [
+                { name: "Jhon Mark S. Pacional", image: "Photos/Jhon%20Mark%20S.%20Pacional,%20Auditor.jpg", bio: "Overseeing financial audits and ensuring compliance.", fullBio: "Jhon Mark S. Pacional was born on March 15, 2006, in San Francisco, Agusan del Sur. He currently resides in Purok 2, Bayugan 2, and is pursuing a Bachelor of Science in Civil Engineering (BSCE). Jhon Mark is a proud graduate of Agusan del Sur National High School, where he completed the General Academic Strand (GAS) and was recognized With Honors for his academic performance. In his free time, he enjoys playing basketball and reading books, hobbies that balance both physical activity and intellectual growth." }
             ]
         },
         {
@@ -399,7 +425,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 { name: "Reyzlie Arnaldo", image: "Photos/Reyzlie%20Arnaldo,%20Member.jpg", bio: "Committed to excellence and active participation in order activities.", fullBio: "Reyzlie Dominic Danieles Arnaldo was born on August 7, 2006, at Elisa R. Ochoa Memorial and Maternity General Hospital (EROMMGH) in Butuan City. He currently resides in Purok 3, Guadalupe, Esperanza, Agusan del Sur, and is enrolled in the Bachelor of Science in Civil Engineering (BSCE) program—pursuing his aspirations in the field of infrastructure and development. He is a graduate of Noli National High School, where he completed the Humanities and Social Sciences (HUMSS) strand and was recognized With Honors for his academic performance and dedication. Reyzlie is known for his strength in active listening and communication skills, which are essential traits for both leadership and teamwork in his field of study." },
                 { name: "Zenmar Borres", image: "Photos/Zenmar%20Borres.jpg", bio: "Passionate member contributing to the order's vision and goals.", fullBio: "Zenmar Moril Borres was born on November 15, 2005, in Bislig City and currently resides at #3B Mambalili, Bunawan, Agusan del Sur. He is pursuing a Bachelor of Science in Civil Engineering, reflecting his strong foundation in mathematics and engineering principles. A consistent honor student from Grade 7 to Grade 12, Zenmar graduated from De La Salle John Bosco College under the Science, Technology, Engineering, and Mathematics (STEM) strand. His academic journey showcases dedication, discipline, and excellence. Outside of academics, Zenmar enjoys playing badminton that complements his active lifestyle and determination." },
                 { name: "Ramil Paciano Atog", image: "Photos/86bbf800-b183-4a69-bb7c-6044e57be0f6.jpg", bio: "Enthusiastic member actively involved in order initiatives and projects.", fullBio: "Ramil Paciano Atog was born on June 23, 2006, in Manay, Mati, Davao Oriental, and currently resides in Prk. 15A Durian, Bayugan 3, Rosario, Agusan del Sur. He is a student of Bachelor of Secondary Education major in Science, known for his academic dedication and artistic talents. He is a consistent achiever, having earned multiple distinctions such as Mr. PHSFI 2023, Best in Research, Best in Performing Arts, Leadership Awardee, Artist of the Year, and With Honor recognition during his senior high school years at Philsaga High School Foundation Incorporated (PHSFI). He is a dynamic and adaptable individual with a passion for badminton, digital editing, and creative pursuits. His strengths in leadership and adaptability reflect his potential as both an educator and a community role model." },
-                { name: "Emmanuel tambong Monte Jr.", image: "Photos/900db16f-ab04-4dd1-ae4a-9f956ef44679.jpg", bio: "Active member contributing to the order's vision and goals.", fullBio: "Emanuel Tambong Monte Jr. was born on May 18, 2001, in P-5 Magsaysay, Prosperidad, Agusan del Sur, where he also currently resides. He is a fourth-year student of Bachelor of Science in Agriculture major in Animal Science." },
                 { name: "Lord Daven Heinz Begot A. Parcon", image: "Photos/583f5957-495e-4295-810c-d1e31ee9eb57.jpg", bio: "Dedicated member actively participating in order activities and initiatives.", fullBio: "LORD DAVEN HEINZ BEGOTA PARCON was born on July 6, 2004, in Sto. Tomas, Loreto, Agusan del Sur. He is currently pursuing Bachelor in Industrial Technology major in Electrical Technology (BINDTECH-ELX 3A) and resides in Purok 5, Sto. Tomas, Loreto, Agusan del Sur." }
             ]
         }
@@ -629,7 +654,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 card.dataset.member = JSON.stringify(member);
                 card.innerHTML = `
                     <div class="carousel-image-wrapper">
-                        <img src="${member.image}" alt="${member.name}" loading="lazy">
+                        <img src="${member.image}" alt="${member.name}" loading="lazy" style="object-position: center top;">
                         <div class="member-hover-overlay">
                             <h4>${member.name}</h4>
                             <span class="role">${membersData.find(pos => pos.members.some(m => m.name === member.name)).position}</span>
@@ -711,16 +736,32 @@ if (document.getElementById('membersTrack')) {
     // Batch lookup helper
     const PIONEER_BATCH = ['Ramil Paciano Atog','Christian Jay P. Eupena','Regie N. Tandoc',
         'Aian James G. Perez','Jay-ar Torralba','John Mark P. Segovia','Jumarie R. Pastor',
-        'Laurence Villaluna','Julianne Tristan Dequiña'];
+        'Laurence Villaluna','Julianne Tristan Dequiña', 'Jhon Mark S. Pacional'];
     const SECOND_BATCH  = ['Jemar Morgado','Prince Jimenez','Cyrill Jade B. Batobalane',
         'Reyzlie Arnaldo','Zenmar Borres','Charles Benedic Dator','Jhon Dave Cadiog',
         'Zieff Aaron Encluna','Grysther Kieth Ibarra'];
 
-    function getBatch(name) {
-        if (PIONEER_BATCH.some(n => name.includes(n.split(' ')[1]))) return 'ODV Pioneers Batch';
-        if (SECOND_BATCH.some(n => name.includes(n.split(' ')[1])))  return 'ODV 2nd Batch';
-        return '';
+   function normalizeName(name) {
+    return name
+        .toLowerCase()
+        .replace(/[.,]/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
+function getBatch(name) {
+    const normalized = normalizeName(name);
+
+    if (PIONEER_BATCH.some(n => normalizeName(n) === normalized)) {
+        return 'ODV Pioneers Batch';
     }
+
+    if (SECOND_BATCH.some(n => normalizeName(n) === normalized)) {
+        return 'ODV 2nd Batch';
+    }
+
+    return '';
+}
 
     // Merge all coordinator sub-groups into Officers
     const categoryMap = {
@@ -969,7 +1010,7 @@ if (document.getElementById('membersTrack')) {
             image: "SDG/57.jpg"
         },
         {
-            sdg: ["SDG 3", "SDG 11"],
+            sdg: ["SDG 3"],
             title: "ODV Basketball Summer League",
             description: "A sports development program that promotes physical fitness, teamwork, discipline, and community engagement through organized basketball activities during the summer season.",
             image: "SDG/58.jpg"
@@ -1406,6 +1447,26 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     startAuto();
+});
+
+// ==========================================
+// About Page — History Image Slider (auto-fade, no controls)
+// ==========================================
+document.addEventListener('DOMContentLoaded', function() {
+    const slider = document.querySelector('.history-slider');
+    if (!slider) return;
+
+    const slides = slider.querySelectorAll('.history-slide');
+    if (slides.length < 2) return;
+
+    let current = 0;
+    const DELAY = 4500;
+
+    setInterval(function() {
+        slides[current].classList.remove('active');
+        current = (current + 1) % slides.length;
+        slides[current].classList.add('active');
+    }, DELAY);
 });
 
 // ==========================================

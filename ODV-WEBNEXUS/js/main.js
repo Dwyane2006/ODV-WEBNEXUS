@@ -749,6 +749,14 @@ if (document.getElementById('membersTrack')) {
         .trim();
 }
 
+function normalizeName(name) {
+    return name
+        .toLowerCase()
+        .replace(/[.,]/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
 function getBatch(name) {
     const normalized = normalizeName(name);
 
@@ -761,6 +769,7 @@ function getBatch(name) {
     }
 
     return '';
+
 }
 
     // Merge all coordinator sub-groups into Officers

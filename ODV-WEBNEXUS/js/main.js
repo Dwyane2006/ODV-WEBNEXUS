@@ -335,7 +335,7 @@ document.addEventListener('DOMContentLoaded', function() {
             position: "Founding Master",
             category: "founder",
             members: [
-                { name: "Louie Jay Torralba", image: "Photos/Louie%20Jay%20Torralba,%20Founder,%20Founding%20Grand%20Master.jpg", bio: "Founder of the Order of Da Vinci, providing visionary leadership and direction.", fullBio: "Mr. Louie Jay Bactalan Torralba, Graduated in Agusan del Sur State College of Agriculture and Technology with Bachelor of Arts in English Language and Currently Taking Master of Arts in Education in Applied Linguistics. He served as a Supreme Student Government President both during High School and College Days and an Active Leaders of various organization. His passion for service extends beyond leadership as Enriornmental Advocate, a Disaster Risk Reduction Volunteer, and a firm believer in Education and Community Empowerment. " }
+                { name: "Louie Jay Torralba", image: "Photos/Louie%20Jay%20Torralba,%20Founder,%20Founding%20Grand%20Master.jpg", bio: "Founder of the Order of Da Vinci, providing visionary leadership and direction.", fullBio: "Mr. Louie Jay Torralba, Graduated in Agusan del Sur State College of Agriculture and Technology with Bachelor of Arts in English Language and Currently Taking Master of Arts in Education in Applied Linguistics. He served as a Supreme Student Government President both during High School and College Days and an Active Leaders of various organization. His passion for service extends beyond leadership as Enriornmental Advocate, a Disaster Risk Reduction Volunteer, and a firm believer in Education and Community Empowerment. " }
             ]
         },
         {

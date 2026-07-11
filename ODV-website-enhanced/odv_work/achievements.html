@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements - Order of Da Vinci</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="ODV-PICTURES/ODV%20LOGO.jpg" alt="ODV Logo" class="logo-img">
+                <span class="logo-text">Order of Da Vinci</span>
+            </a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="achievements.html" class="active">Achievements</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="trainings.html">Trainings</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="hero" style="height:50vh;min-height:300px;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">Our Achievements</h1>
+                <p class="hero-subtitle">Milestones That Define Excellence</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notable Achievements Section -->
+    <section class="section-padding bg-dark">
+        <div class="container">
+            <div class="section-header light">
+                <h2>Notable Achievements</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Click any image to view in full size</p>
+            </div>
+            <div class="notable-achievements-grid">
+                <div class="notable-card" onclick="openImgModal('ODV-PICTURES/Notable%20Achivements.jpg','Official Founding Charter','2024','Established Order of Da Vinci as a transformative youth brotherhood committed to leadership, honor, valor, and service.')">
+                    <div class="notable-card-img-wrap">
+                        <img src="ODV-PICTURES/Notable%20Achivements.jpg" alt="Official Founding Charter" loading="lazy">
+                        <div class="notable-card-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="notable-card-body">
+                        <span class="notable-year">2024</span>
+                        <h4>Official Founding Charter</h4>
+                        <p>Established Order of Da Vinci as a transformative youth brotherhood committed to leadership, honor, valor, and service.</p>
+                    </div>
+                </div>
+                <div class="notable-card" onclick="openImgModal('ODV-PICTURES/Notable%20Achivements%202.jpg','First Leadership Summit','2024','Launched inaugural training program with founding Grand Masters, empowering visionary leaders within the order.')">
+                    <div class="notable-card-img-wrap">
+                        <img src="ODV-PICTURES/Notable%20Achivements%202.jpg" alt="First Leadership Summit" loading="lazy">
+                        <div class="notable-card-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="notable-card-body">
+                        <span class="notable-year">2024</span>
+                        <h4>First Leadership Summit</h4>
+                        <p>Launched inaugural training program with founding Grand Masters, empowering visionary leaders within the order.</p>
+                    </div>
+                </div>
+                <div class="notable-card" onclick="openImgModal('ODV-PICTURES/Notable%20Achivements%203.jpg','Community Outreach Initiative','2024','Organized first service project fostering unity and innovation in local communities across Agusan del Sur.')">
+                    <div class="notable-card-img-wrap">
+                        <img src="ODV-PICTURES/Notable%20Achivements%203.jpg" alt="Community Outreach Initiative" loading="lazy">
+                        <div class="notable-card-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="notable-card-body">
+                        <span class="notable-year">2024</span>
+                        <h4>Community Outreach Initiative</h4>
+                        <p>Organized first service project fostering unity and innovation in local communities across Agusan del Sur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards & Recognition Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Awards &amp; Recognitions</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Celebrating our journey of innovation and impact</p>
+            </div>
+            <div class="achievements-list">
+                <div class="achievement-card" onclick="openImgModal('ODV-PICTURES/ACHIVEMENTS.jpg','Organizational Excellence Award','2024','Recognized for outstanding leadership and organizational excellence in establishing a brotherhood committed to youth empowerment.')">
+                    <img src="ODV-PICTURES/ACHIVEMENTS.jpg" alt="Organizational Excellence Award" class="card-img" loading="lazy">
+                    <div class="card-body">
+                        <div class="card-date">2024</div>
+                        <h3>Organizational Excellence Award</h3>
+                        <p>Recognized for outstanding leadership and organizational excellence in establishing a brotherhood committed to youth empowerment and community service.</p>
+                        <span class="view-img-hint"><i class="fas fa-search-plus"></i> Click to view image</span>
+                    </div>
+                </div>
+                <div class="achievement-card" onclick="openImgModal('ODV-PICTURES/ACHIVEMENTS3.jpg','Leadership Development Recognition','2024','Awarded for developing next-generation ethical leaders committed to service, honor, and valor within Agusan del Sur.')">
+                    <img src="ODV-PICTURES/ACHIVEMENTS3.jpg" alt="Leadership Development Recognition" class="card-img" loading="lazy">
+                    <div class="card-body">
+                        <div class="card-date">2024</div>
+                        <h3>Leadership Development Recognition</h3>
+                        <p>Awarded for developing next-generation ethical leaders committed to service, honor, and valor within Agusan del Sur and surrounding communities.</p>
+                        <span class="view-img-hint"><i class="fas fa-search-plus"></i> Click to view image</span>
+                    </div>
+                </div>
+                <div class="achievement-card" onclick="openImgModal('ODV-PICTURES/ACHIVEMENTS4.jpg','Community Service Award','2024','Honored for humanitarian initiatives providing meaningful impact to underserved communities through dedicated outreach programs.')">
+                    <img src="ODV-PICTURES/ACHIVEMENTS4.jpg" alt="Community Service Award" class="card-img" loading="lazy">
+                    <div class="card-body">
+                        <div class="card-date">2024</div>
+                        <h3>Community Service Award</h3>
+                        <p>Honored for humanitarian initiatives providing meaningful impact to underserved communities through dedicated outreach and service programs.</p>
+                        <span class="view-img-hint"><i class="fas fa-search-plus"></i> Click to view image</span>
+                    </div>
+                </div>
+                <div class="achievement-card" onclick="openImgModal('ODV-PICTURES/ACHIVEMENTS5.jpg','Youth Empowerment Excellence','2024','Celebrated for empowering youth through structured programs in leadership, first aid, and public speaking across the region.')">
+                    <img src="ODV-PICTURES/ACHIVEMENTS5.jpg" alt="Youth Empowerment Excellence" class="card-img" loading="lazy">
+                    <div class="card-body">
+                        <div class="card-date">2024</div>
+                        <h3>Youth Empowerment Excellence</h3>
+                        <p>Celebrated for empowering youth through structured programs in leadership, first aid, and public speaking across the Caraga region.</p>
+                        <span class="view-img-hint"><i class="fas fa-search-plus"></i> Click to view image</span>
+                    </div>
+                </div>
+                <div class="achievement-card" onclick="openImgModal('ODV-PICTURES/ACHIVEMENTS6.jpg','Training &amp; Membership Achievement','2024','Recognition for building a strong, engaged membership base through quality training and dedication to organizational growth.')">
+                    <img src="ODV-PICTURES/ACHIVEMENTS6.jpg" alt="Training and Membership Achievement" class="card-img" loading="lazy">
+                    <div class="card-body">
+                        <div class="card-date">2024</div>
+                        <h3>Training &amp; Membership Achievement</h3>
+                        <p>Recognition for building a strong, engaged membership base through quality training and steadfast dedication to organizational growth and excellence.</p>
+                        <span class="view-img-hint"><i class="fas fa-search-plus"></i> Click to view image</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div id="imgModal" class="achievement-modal" role="dialog" aria-modal="true">
+        <div class="achievement-modal-content">
+            <button class="achievement-modal-close" id="imgModalClose" aria-label="Close">&times;</button>
+            <img id="imgModalImg" src="" alt="" class="achievement-modal-img">
+            <div class="achievement-modal-info">
+                <span id="imgModalYear" class="achievement-modal-year"></span>
+                <h3 id="imgModalTitle" class="achievement-modal-title"></h3>
+                <p id="imgModalDesc" class="achievement-modal-desc"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <img src="ODV-PICTURES/ODV%20LOGO.jpg" alt="ODV Logo" class="footer-logo-img">
+                        <span>Order of Da Vinci</span>
+                    </a>
+                    <p>Inspiring innovation and leadership for a better tomorrow.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/OrderofDaVinci" aria-label="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@OrderofDaVinci" aria-label="YouTube" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="achievements.html">Achievements</a></li>
+                        <li><a href="members.html">Members</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="trainings.html">Trainings</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> orderofdavinci@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +63 9094355956</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Bunawan, Agusan Del Sur</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Order of Da Vinci. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+    function openImgModal(src, title, year, desc) {
+        document.getElementById('imgModalImg').src = src;
+        document.getElementById('imgModalImg').alt = title;
+        document.getElementById('imgModalTitle').textContent = title;
+        document.getElementById('imgModalYear').textContent = year;
+        document.getElementById('imgModalDesc').textContent = desc;
+        document.getElementById('imgModal').classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+    document.getElementById('imgModalClose').addEventListener('click', function() {
+        document.getElementById('imgModal').classList.remove('active');
+        document.body.style.overflow = '';
+    });
+    document.getElementById('imgModal').addEventListener('click', function(e) {
+        if (e.target === this) { this.classList.remove('active'); document.body.style.overflow = ''; }
+    });
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') { document.getElementById('imgModal').classList.remove('active'); document.body.style.overflow = ''; }
+    });
+    </script>
+</body>
+</html>

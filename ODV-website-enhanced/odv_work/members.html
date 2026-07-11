@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Members | Order of Da Vinci</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="ODV-PICTURES/ODV%20LOGO.jpg" alt="ODV Logo" class="logo-img">
+                <span class="logo-text">Order of Da Vinci</span>
+            </a>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="members.html" class="active">Members</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="trainings.html">Trainings</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" style="height: 50vh; min-height: 400px;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">Our Members</h1>
+                <p class="hero-description">Meet the dedicated individuals who drive the Order of Da Vinci forward.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Complete Member Directory</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Organized by roles and positions within the Order of Da Vinci</p>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="member-search-container">
+                <div class="search-wrapper">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="memberSearch" placeholder="Search members by name...">
+                </div>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="members-filter">
+                <button class="filter-btn active" data-filter="all">All Members</button>
+                <button class="filter-btn" data-filter="founder">Founding Master</button>
+                <button class="filter-btn" data-filter="grandmaster">Grand Masters</button>
+                <button class="filter-btn" data-filter="officer">Officers</button>
+                <button class="filter-btn" data-filter="coordinator">Coordinators</button>
+                <button class="filter-btn" data-filter="member">Members</button>
+            </div>
+
+            <!-- Positions Grid - Populated by JS -->
+            <div class="member-sections">
+                <div id="positionsGrid" class="positions-grid"></div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImage">
+            <div class="lightbox-info">
+                <h3 id="lightboxName"></h3>
+                <span id="lightboxRole"></span>
+                <p id="lightboxBio"></p>
+            </div>
+            <button class="lightbox-close" id="lightboxClose">&times;</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo" style="display:inline-flex;align-items:center;gap:10px;color:#fff;font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:700;">
+                        <img src="ODV-PICTURES/ODV%20LOGO.jpg" alt="ODV Logo" class="footer-logo-img">
+                        <span>Order of Da Vinci</span>
+                    </a>
+                    <p>Inspiring innovation and leadership for a better tomorrow.</p>
+                    <div class="social-links">
+<a href="https://www.facebook.com/OrderofDaVinci" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@OrderofDaVinci" aria-label="YouTube" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="achievements.html">Achievements</a></li>
+                        <li><a href="members.html">Members</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="trainings.html">Trainings</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> orderofdavinci@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +63 9094355956</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Bunawan, Agusan Del Sur</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Order of Da Vinci. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+

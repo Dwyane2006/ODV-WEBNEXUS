@@ -2992,7 +2992,7 @@ img {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.50s ease;
 }
 
 .sdg-card-image:hover .sdg-image-overlay {

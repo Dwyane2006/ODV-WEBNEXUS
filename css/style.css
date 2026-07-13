@@ -68,7 +68,7 @@
     --radius-lg:   20px;
     --radius-xl:   32px;
     --max-width:   1200px;
-    --transition:  all 0.60s cubic-bezier(0.10, 0, 0.10, 1);
+    --transition:  all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ==========================================
@@ -222,7 +222,7 @@ img {
     inset: 0;
     background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, transparent 60%);
     opacity: 0;
-    transition: opacity 0.60s ease;
+    transition: opacity 0.3s ease;
 }
 
 .btn:hover::before { opacity: 1; }
@@ -405,7 +405,7 @@ img {
     text-transform: uppercase;
     position: relative;
     padding: 6px 0;
-    transition: color 0.60s ease;
+    transition: color 0.3s ease;
 }
 
 .nav-menu a::after {
@@ -416,7 +416,7 @@ img {
     width: 0;
     height: 1px;
     background: var(--grad-gold);
-    transition: width 0.60s cubic-bezier(0.10, 0, 0.10, 1);
+    transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-menu a:hover,
@@ -441,7 +441,7 @@ img {
     border-radius: 50%;
     background: var(--gold);
     box-shadow: 0 0 6px 2px rgba(212, 175, 55, 0.55);
-    transition: opacity 0.60s ease;
+    transition: opacity 0.3s ease;
 }
 
 .mobile-toggle {
@@ -673,7 +673,7 @@ img {
     inset: 0;
     background: radial-gradient(ellipse at 50% 0%, rgba(212, 175, 55, 0.06) 0%, transparent 60%);
     opacity: 0;
-    transition: opacity 0.60s ease;
+    transition: opacity 0.4s ease;
 }
 
 .card:hover::after { opacity: 1; }
@@ -730,7 +730,7 @@ img {
 .about-image img {
     width: 100%;
     border-radius: var(--radius-lg);
-    transition: transform 0.3s ease;
+    transition: transform 0.6s ease;
     filter: brightness(0.9) contrast(1.05);
 }
 
@@ -893,7 +893,7 @@ img {
     height: 2px;
     background: var(--grad-gold);
     transform: scaleX(0);
-    transition: transform 0.10s ease;
+    transition: transform 0.4s ease;
 }
 
 .achievement-card:hover::before { transform: scaleX(1); }
@@ -909,7 +909,7 @@ img {
     height: 200px;
     object-fit: cover;
     filter: brightness(0.85) saturate(0.8);
-    transition: filter 0.10s ease, transform 0.10s ease;
+    transition: filter 0.4s ease, transform 0.4s ease;
     cursor: zoom-in;
 }
 
@@ -1010,7 +1010,7 @@ img {
     height: 290px;
     object-fit: cover;
     filter: brightness(0.88) saturate(0.7);
-    transition: filter 0.10s ease, transform 0.10s ease;
+    transition: filter 0.4s ease, transform 0.5s ease;
 }
 
 .masters-card:hover img {
@@ -1119,7 +1119,7 @@ img {
     height: 1px;
     background: linear-gradient(90deg, transparent, var(--border-bright), transparent);
     opacity: 0;
-    transition: opacity 0.10s ease;
+    transition: opacity 0.4s ease;
 }
 
 .service-card:hover {
@@ -1195,7 +1195,7 @@ img {
     height: 2px;
     background: linear-gradient(90deg, transparent, var(--gold), transparent);
     opacity: 0;
-    transition: opacity 0.10s ease;
+    transition: opacity 0.4s ease;
 }
 
 .service-detailed-card:hover {
@@ -1413,7 +1413,7 @@ img {
     object-fit: cover;
     display: block;
     cursor: zoom-in;
-    transition: transform 0.10s ease;
+    transition: transform 0.4s ease;
 }
 
 .training-program-image:hover img {
@@ -1680,7 +1680,7 @@ img {
     height: 200px;
     object-fit: cover;
     filter: brightness(0.8) saturate(0.7);
-    transition: filter 0.60s ease;
+    transition: filter 0.4s ease;
 }
 
 .event-card:hover img { filter: brightness(0.95) saturate(1); }
@@ -1734,7 +1734,7 @@ img {
     height: 100%;
     object-fit: cover;
     filter: brightness(0.85) saturate(0.7);
-    transition: transform 0.60s ease, filter 0.60s ease;
+    transition: transform 0.5s ease, filter 0.4s ease;
 }
 
 .gallery-item:hover img {
@@ -1756,7 +1756,7 @@ img {
     justify-content: center;
     padding-bottom: 20px;
     opacity: 0;
-    transition: opacity 0.60s ease;
+    transition: opacity 0.4s ease;
 }
 
 .gallery-item:hover .gallery-overlay { opacity: 1; }
@@ -2099,7 +2099,7 @@ img {
 .reveal {
     opacity: 0;
     transform: translateY(28px);
-    transition: opacity 0.10s ease, transform 0.10s ease;
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .reveal.active {
@@ -2120,7 +2120,7 @@ img {
 
 .sliding-members-track {
     display: flex;
-    transition: transform 0.10s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     gap: 20px;
     align-items: center;
     will-change: transform;
@@ -2157,7 +2157,7 @@ img {
 }
 
 .carousel-image-wrapper img {
-    transition: transform 0.10s ease;
+    transition: transform 0.4s ease;
 }
 
 .carousel-member-card:hover .carousel-image-wrapper img {
@@ -2176,7 +2176,7 @@ img {
     padding: 24px;
     opacity: 0;
     transform: translateY(100%);
-    transition: all 0.10s ease;
+    transition: all 0.4s ease;
 }
 
 .carousel-member-card:hover .member-hover-overlay {
@@ -2209,7 +2209,7 @@ img {
     height: 200px;
     object-fit: cover;
     filter: brightness(0.85) saturate(0.7);
-    transition: filter 0.10s ease;
+    transition: filter 0.4s ease;
 }
 
 .carousel-member-card:hover img { filter: brightness(1) saturate(1); }
@@ -2342,7 +2342,7 @@ img {
 .member-group {
     opacity: 1;
     transform: translateY(0);
-    transition: all 0.10s ease;
+    transition: all 0.5s ease;
 }
 
 .member-group.hidden {
@@ -2422,7 +2422,7 @@ img {
     object-fit: cover;
     opacity: 0;
     filter: brightness(0.85) saturate(0.7);
-    transition: opacity 0.10s ease, transform 0.10s ease, filter 0.10s ease;
+    transition: opacity 0.50s ease, transform 0.50s ease, filter 0.50s ease;
     transform: scale(1.05);
 }
 
@@ -2450,7 +2450,7 @@ img {
     justify-content: center;
     font-size: 0.75rem;
     opacity: 0;
-    transition: opacity 0.60s ease;
+    transition: opacity 1.0s ease;
     pointer-events: none;
     z-index: 2;
 }
@@ -2550,7 +2550,7 @@ img {
     font-size: 1.15rem;
     margin-bottom: 10px;
     color: var(--text-white);
-    transition: opacity 0.60s ease;
+    transition: opacity 0.30s ease;
     letter-spacing: 0.04em;
 }
 
@@ -2558,7 +2558,7 @@ img {
     color: var(--text-muted);
     font-size: 0.88rem;
     line-height: 1.65;
-    transition: opacity 0.60s ease;
+    transition: opacity 0.30s ease;
     min-height: 3em;
 }
 
@@ -2580,7 +2580,7 @@ img {
     z-index: 10000;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.60s ease;
+    transition: opacity 0.50s ease;
     padding: 24px;
 }
 
@@ -2599,7 +2599,7 @@ img {
     overflow: hidden;
     box-shadow: var(--shadow-deep), 0 0 80px rgba(212, 175, 55, 0.1);
     transform: scale(0.92);
-    transition: transform 0.60s cubic-bezier(0.34, 1.56, 0.64, 1);
+    transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .lightbox-modal.active .lightbox-content { transform: scale(1); }
@@ -2729,7 +2729,7 @@ img {
         align-items: center;
         gap: 12px;
         margin-left: 0;        /* mobile slide-out menu shouldn't inherit the desktop offset */
-        transition: right 0.60s cubic-bezier(0.4, 0, 0.2, 1);
+        transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         padding: 60px 20px;
     }
 
@@ -2992,7 +2992,7 @@ img {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 0.50s ease;
+    transition: opacity 0.3s ease;
 }
 
 .sdg-card-image:hover .sdg-image-overlay {

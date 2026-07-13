@@ -408,15 +408,13 @@ if (contactForm) {
                 { name: "Julianne Tristan E. Dequiña", image: "Photos/Julianne%20Tristan%20Dequiña,%20President.jpg", bio: "Leading the Order with vision, dedication, and a commitment to excellence.", fullBio: "Julianne Tristan Encarnacion Dequiña was born on July 13, 2006, in Veruela, Agusan del Sur. He is currently pursuing a Bachelor of Science in Information Technology (BSIT), aiming to build a career in the ever-evolving world of digital technology and innovation. A proud graduate of Veruela National High School, Julianne completed the Humanities and Social Sciences (HUMSS) strand With Honors, showcasing his academic diligence and well-rounded capabilities. He also received the Leonardo Da Vinci Excellence Award through his Outstanding performance in the Order of Da Vinci. In his free time, he enjoys jogging, walking, and hiking, activities that reflect his active lifestyle and appreciation for the outdoors." },
             ]
         },
-
-        {
+        {       
             position: "Vice President",
             category: "officer",
             members: [
                 { name: "Regie N. Tandoc", image: "Photos/Regie%20N.%20Tandoc,%20Vice%20President.jpg", bio: "Supporting the President in strategic planning and organizational growth.", fullBio: "Regie N. Tandoc was born on March 15, 2006, in San Francisco, Agusan del Sur, where he currently resides in Purok 2, Bayugan 2. He is pursuing a Bachelor of Science in Civil Engineering (BSCE), reflecting his interest in design, construction, and infrastructure development. A graduate of Agusan del Sur National High School, Regie completed the General Academic Strand (GAS) and was recognized With Honors for his academic performance. In addition to his studies, he enjoys playing basketball and reading books, hobbies that balance both physical activity and intellectual growth." }
             ]
         },
-
         {
             position: "Secretary",
             category: "officer",
@@ -439,6 +437,20 @@ if (contactForm) {
             ]
         },
         {
+            position: "Business Manager",
+            category: "officer",
+            members: [
+                { name: "Laurence M. Villaluna", image: "Photos/laurence%20Villaluna,%20Peace%20Relation%20Coordinator.jpg", bio: "Promoting peace initiatives and collaborative outreach programs.", fullBio: "Laurence Menendez Villaluna was born on October 20, 2006, in San Andres, Bunawan, Agusan del Sur, and currently lives in Mambalili, Bunawan, Agusan del Sur. He is pursuing a Bachelor of Science in Civil Engineering, reflecting his strong interest in engineering and innovation. Laurence graduated from Father Saturnino Urios College of Trento, Inc., where he completed his senior high school under the Science, Technology, Engineering, and Mathematics (STEM) strand With Honors, highlighting his academic excellence and determination. In his free time, he enjoys playing basketball, demonstrating both his love for sports and teamwork." }
+            ]
+        },
+         {
+            position: "Organizational Coordinator",
+            category: "coordinator",
+            members: [
+                { name: "Grayster Keith R. Ibarra", image: "Photos/Grysther%20Kieth%20Ibarra,%20Organizational%20Coordinator.jpg", bio: "Ensuring smooth internal operations and event coordination.", fullBio: "Grayster Keith Remerata Ibarra was born on February 20, 2006, in Butuan City and currently resides in Purok 7, Del Monte, Talacogon, Agusan del Sur. He is pursuing a Bachelor of Science in Civil Engineering, aiming to build a future in structural design and engineering innovation. He graduated With Honor from Del Monte National High School, where he took the Science, Technology, Engineering, and Mathematics (STEM) strand—demonstrating academic strength and a passion for technical subjects. In his free time, Grayster enjoys playing online games and basketball, balancing mental focus with physical activity." }
+            ]
+        },
+        {
             position: "Training & Membership Coordinators",
             category: "coordinator",
             members: [
@@ -448,10 +460,10 @@ if (contactForm) {
             ]
         },
         {
-            position: "Business Manager",
-            category: "officer",
+            position: "Grievance Coordinator",
+            category: "coordinator",
             members: [
-                { name: "Laurence M. Villaluna", image: "Photos/laurence%20Villaluna,%20Peace%20Relation%20Coordinator.jpg", bio: "Promoting peace initiatives and collaborative outreach programs.", fullBio: "Laurence Menendez Villaluna was born on October 20, 2006, in San Andres, Bunawan, Agusan del Sur, and currently lives in Mambalili, Bunawan, Agusan del Sur. He is pursuing a Bachelor of Science in Civil Engineering, reflecting his strong interest in engineering and innovation. Laurence graduated from Father Saturnino Urios College of Trento, Inc., where he completed his senior high school under the Science, Technology, Engineering, and Mathematics (STEM) strand With Honors, highlighting his academic excellence and determination. In his free time, he enjoys playing basketball, demonstrating both his love for sports and teamwork." }
+                { name: "Jay-ar B. Torralba", image: "Photos/Jay-ar%20Torralba,%20Business%20Manager.jpg", bio: "Driving partnerships and sustainable growth for the order.", fullBio: "Jay-ar Bactalan Torralba was born on August 5, 2004, at Northern Mindanao Hospital and currently resides in Purok 8, Simulao, Bunawan Brook, Bunawan, Agusan del Sur. He is currently pursuing a Bachelor of Science in Industrial Technology (BSIT), Major in Automotive Technology, at the University of Southeastern Philippines (USeP) – Obrero Main Campus. He initially commenced his college education at the Agusan del Sur State University (ADSSU), formerly known as the Agusan del Sur State College of Agriculture and Technology (ASSCAT), under the Bachelor of Science in Civil Engineering (BSCE) program before transferring to USeP to continue his academic journey and pursue his passion for industrial technology and automotive systems. Jay-ar is a graduate of Asian Skills Academy Foundation, Inc., where he completed his senior high school education With Honors. He was also recognized for his artistic talent through the Outstanding Performance in Musical Arts Award, reflecting his creativity and dedication beyond academics. Outside the classroom, Jay-ar is passionate about music and sports. He enjoys playing the guitar, basketball, and billiards, activities that showcase his creativity, teamwork, discipline, and well-rounded personality as he prepares for a career in the field of industrial technology." },
             ]
         },
         {
@@ -459,20 +471,6 @@ if (contactForm) {
             category: "coordinator",
             members: [
                 { name: "Aian James G. Perez", image: "Photos/Aian%20James%20G.%20Perez,%20Relation%20Coordinator.jpg", bio: "Building strong relationships with partners and the community.", fullBio: "Aian James Gohitia Perez was born on October 3, 2006, in P-10 Del Monte, Talacogon, Agusan del Sur, where he also currently resides. He is pursuing a Bachelor of Science in Civil Engineering (BSCE), reflecting his passion for structure, design, and innovation. He is a consistent achiever graduated With Honors from Del Monte National High School and received accolades such as the School Choir Award and 1st Place in Science Month’s Scientist Kaloka Like & Talent Competition. He further distinguished himself by earning multiple awards in College, including the Academic Excellence Award, Civic Engagement Award, Leadership Award, Exemplary Award, and Outstanding Volunteer Award. In his free time, Aian enjoys playing outdoor games, drawing, and dancing, showcasing his vibrant personality and versatile talents both inside and outside the classroom." }
-            ]
-        },
-        {
-            position: "Organizational Coordinator",
-            category: "coordinator",
-            members: [
-                { name: "Grayster Keith R. Ibarra", image: "Photos/Grysther%20Kieth%20Ibarra,%20Organizational%20Coordinator.jpg", bio: "Ensuring smooth internal operations and event coordination.", fullBio: "Grayster Keith Remerata Ibarra was born on February 20, 2006, in Butuan City and currently resides in Purok 7, Del Monte, Talacogon, Agusan del Sur. He is pursuing a Bachelor of Science in Civil Engineering, aiming to build a future in structural design and engineering innovation. He graduated With Honor from Del Monte National High School, where he took the Science, Technology, Engineering, and Mathematics (STEM) strand—demonstrating academic strength and a passion for technical subjects. In his free time, Grayster enjoys playing online games and basketball, balancing mental focus with physical activity." }
-            ]
-        },
-        {
-            position: "Grievance Coordinator",
-            category: "coordinator",
-            members: [
-                { name: "Jay-ar B. Torralba", image: "Photos/Jay-ar%20Torralba,%20Business%20Manager.jpg", bio: "Driving partnerships and sustainable growth for the order.", fullBio: "Jay-ar Bactalan Torralba was born on August 5, 2004, at Northern Mindanao Hospital and currently resides in Purok 8, Simulao, Bunawan Brook, Bunawan, Agusan del Sur. He is currently pursuing a Bachelor of Science in Industrial Technology (BSIT), Major in Automotive Technology, at the University of Southeastern Philippines (USeP) – Obrero Main Campus. He initially commenced his college education at the Agusan del Sur State University (ADSSU), formerly known as the Agusan del Sur State College of Agriculture and Technology (ASSCAT), under the Bachelor of Science in Civil Engineering (BSCE) program before transferring to USeP to continue his academic journey and pursue his passion for industrial technology and automotive systems. Jay-ar is a graduate of Asian Skills Academy Foundation, Inc., where he completed his senior high school education With Honors. He was also recognized for his artistic talent through the Outstanding Performance in Musical Arts Award, reflecting his creativity and dedication beyond academics. Outside the classroom, Jay-ar is passionate about music and sports. He enjoys playing the guitar, basketball, and billiards, activities that showcase his creativity, teamwork, discipline, and well-rounded personality as he prepares for a career in the field of industrial technology." },
             ]
         },
         {
@@ -799,7 +797,7 @@ if (document.getElementById('membersTrack')) {
         'Laurence M. Villaluna','Julianne Tristan E. Dequiña', 'Jhon Mark S. Pacional','Prince A. Jimenez',];
     const SECOND_BATCH  = ['Jemar G. Morgado','Cyrill Jade B. Batobalane',
         'Reyzlie Dominic D. Arnaldo','Zenmar M. Borres','Charles Benedict C. Dator','John Dave C. Cadiog',
-        'Zieff Aaron H. Encluna','Grysther Kieth R. Ibarra',];
+        'Zieff Aaron H. Encluna','Graysther Keith R. Ibarra',];
 
    function normalizeName(name) {
     return name
@@ -829,8 +827,8 @@ function getBatch(name) {
 
     // Merge all coordinator sub-groups into Officers
     const categoryMap = {
-        founder:     { label: 'Founding Master', members: [] },
-        grandmaster: { label: 'Grand Masters',   members: [] },
+        founder:     { label: 'Founding Master',  members: [] },
+        grandmaster: { label: 'Grand Masters',    members: [] },
         officer:     { label: 'Officers',         members: [] },
         masters:     { label: 'Masters',          members: [] },
         pioneers:    { label: 'Pioneers',         members: [] },
